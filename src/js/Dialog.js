@@ -301,7 +301,7 @@ _context.invoke('Nittro.Extras.Dialogs', function(DOM, CSSTransitions, Arrays, R
 
         _saveFocusedElement: function () {
             this._.origFocusTarget = document.activeElement;
-            this._.origFocusTarget && this._.origFocusTarget.blur();
+            this._.origFocusTarget && this._.origFocusTarget.blur && this._.origFocusTarget.blur();
         },
 
         _restoreFocusedElement: function () {
