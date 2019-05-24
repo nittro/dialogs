@@ -3,7 +3,7 @@
   "homepage": "https://www.nittro.org",
   "license": "MIT",
   "author": "Dan Kadera <me@subsonic.cz>",
-  "version": "2.1.15",
+  "version": "2.1.16",
   "repository": {
     "type": "git",
     "url": "https://github.com/nittro/dialogs.git"
