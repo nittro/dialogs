@@ -254,7 +254,7 @@ _context.invoke('Nittro.Extras.Dialogs', function(DOM, CSSTransitions, Arrays, R
         },
 
         _setState: function (state, init, cancel) {
-            if (this._.state.current === state) {
+            if (!this._.state || this._.state.current === state) {
                 return Promise.resolve();
             } else if (this._.state.next === state) {
                 return this._.state.promise;
